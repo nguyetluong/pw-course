@@ -1,0 +1,7 @@
+1. Tạo 1 thư mục mới không thuộc thư mục đã init git, ví dụ: lesson2
+2. Tạo 3 file: file1.txt, file2.txt, file3.txt
+3. Chạy lệnh git init : để khởi tạo git trên thư mục lesson2, sau khi khởi tạo toàn bộ file trên nằm ở vùng working directory
+4. chạy lệnh git commit -m"init project" : commit đầu tiên- commit gốc
+5. chạy lệnh git add file1.txt : add file1.txt sang vùng stagging
+6. chạy lệnh git commit -m"add file1" : commit file1 sang vùng repository
+7. chạy lệnh git commit -m"add file" : không có file nào ở vùng stagging để commit nên lệnh này chạy xong sẽ có dòng thông báo cho việc này.

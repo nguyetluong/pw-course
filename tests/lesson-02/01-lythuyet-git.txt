@@ -1,0 +1,6 @@
+# Giải thích câu lệnh
+git init : khởi tạo git trên thư mục. Sau khi khởi tạo git trên thư mục, toàn bộ các file sẽ nằm ở vùng working directory
+git add <file_name> : Add 1 hoặc nhiều file sang vùng stagging
+git add . : Add toàn bộ file sang vùng stagging
+git commit -m "message" : commit các file ở vùng stagging sang vùng repository
+
