@@ -1,9 +1,9 @@
-1/ Câu điều kiện: 
+#1 Câu điều kiện: 
 if
 if..else
 if..elseif..else
 
-2/ Vòng lặp: vô hạn, hữu hạn
+#2 Vòng lặp: vô hạn, hữu hạn
 for (i)  i - <điều kiện khởi tạo, điều kiện lặp, điều kiện thay đổi>
 - Điều kiện khởi tạo: chạy 1 lần
 - vòng 1:  Điều kiện lặp = true thì chạy code - tiếp tục xét điều kiện thay đổi 
@@ -20,7 +20,7 @@ console.log ("hello");
 - vòng 5: xét điều kiện thay đổi i++ => i =4, điều kiện lặp i =4 <5 (true) => in ra hello 5
 - vòng 6: xét điều kiện thay đổi i++ => i =5, điều kiện lặp i =5 <5 (false) => không chạy code, thoát khỏi vòng lặp
 
-3/Convention
+#3 Convention
 Template Literals
 snake_case  nguyet_luong -không dùng
 kebab-case  nguyet-luong - Đặt trên file/tên folder
@@ -28,4 +28,4 @@ camelCase   nguyetLuong - Tên biến/hàm
 PascalCase  NguyetLuong - Tên Class
 SCREAMING_SNACK_CASE    NGUYET_LUONG
 
-4/ Format code ALT+SHIF+F
+#4 Format code ALT+SHIF+F
