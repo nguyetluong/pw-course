@@ -1,0 +1,8 @@
+# Giải thích câu lệnh
+- git commit --amend : Thay đổi commit message cuối cùng, có mở editor
+- git commit --amend -m"<message>"  : Thay đổi commit message cuối trực tiếp
+- git restore --staged <file>   : Unstaged 1 file cụ thể từ vùng staging về vùng working directory
+- git restore --staged .  : Unstaged tất cả các file
+- git reset --soft HEAD~1 : Đưa nội dung commit cuối cùng từ repository về staging
+- git reset HEAD~1  : Đưa nội dung commit cuối cùng từ repository về working directory
+

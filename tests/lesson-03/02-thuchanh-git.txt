@@ -1,0 +1,57 @@
+// Giả sử có 1 folder demo mới được tạo.
+a. Tạo mới 3 file bằng cách gõ lệnh sau trên folder demo
+touch file1 file2 file3
+Khi này:
+- local: file1, file2, file3
+- working directory: 
+- staging: 
+- repository: 
+
+b. Chạy lệnh git init
+- Local:
+- working directory: file1, file2, file3
+- staging:
+- repository:
+
+c. Chạy lệnh: git commit -m"init project"
+- Local:
+- working directory: file1, file2, file3
+- staging:
+- repository:
+
+d. Chạy lệnh: git add file1
+- Local:
+- working directory:  file2, file3
+- staging: file1
+- repository:
+
+e. chạy lệnh: git commit -m"add file"
+- Local:
+- working directory:  file2, file3
+- staging: 
+- repository: file1
+
+f. Chạy lệnh: git add .
+- Local:
+- working directory:  
+- staging: file2, file3
+- repository: file1
+
+g. Chạy lệnh: git restore --staged file2
+- Local:
+- working directory: file2
+- staging: file3
+- repository: file1
+
+h. Chạy lệnh: git commit -m”add all files”
+- Local:
+- working directory:
+- staging: file3, file2
+- repository: file1
+
+i. Chạy lệnh: git reset HEAD~1
+- Local:
+- working directory: file1
+- staging: file3, file2
+- repository: 
+
